@@ -1,0 +1,2 @@
+C:\Users\Hannah N\source\repos\Bookshelf\Bookshelf\obj\Debug\Bookshelf.njsproj.CoreCompileInputs.cache
+C:\Users\Hannah N\source\repos\Bookshelf\Bookshelf\bin\Microsoft.NodejsTools.WebRole.dll
