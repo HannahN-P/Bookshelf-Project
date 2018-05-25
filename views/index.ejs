@@ -1,0 +1,71 @@
+<!-- views/index.ejs -->
+<!doctype html>
+<html>
+<head>
+	<title>Authentification</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" /> <!-- load bootstrap css -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" /> <!-- load fontawesome -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+
+  <style>
+
+    #customBtn {
+    display: inline-block;
+    background: white;
+    color: #444;
+    width: 190px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    }
+    #customBtn:hover {
+    cursor: pointer;
+    }
+    span.label {
+    font-family: serif;
+    font-weight: normal;
+    }
+    span.icon {
+    background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    }
+    span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="container">
+      <div class="jumpotron text-center">
+        <h1>
+          <span class="fa fa-book"></span>  Bookshelves
+        </h1>
+
+        <p>Easy access to your own virtual bookshelf</p>
+
+        <a href="/login" class="btn btn-default">
+          <span class="fa fa-user"></span>   Login
+        </a>
+        <a href="/signup" class="btn btn-default">
+          <span class="fa fa-user"></span>   Sign-Up
+        </a>
+        <span> or </span>
+        <a href="/auth/google" class="btn btn-danger">
+          <span class="fa fa-google-plus"></span> Log in with Google
+        </a>
+      </div>
+    </div>
+</body>
+</html>
