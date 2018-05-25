@@ -1,0 +1,68 @@
+﻿body {
+    padding-top: 80px;
+    padding: 60px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url(../images/book-open.png);
+    background-color: #cccccc;
+}
+
+div.scrollingDiv {
+    overflow-y: auto;
+    height: 400px;
+    width: 80%;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: orange;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    color: #00B7FF;
+    font-weight: bold;
+    text-decoration: double
+}
+
+a {
+    color: #00B7FF;
+}
+
+.logout {
+    padding-right: -40px;
+    float: right;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
